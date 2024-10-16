@@ -1,0 +1,21 @@
+#app {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 8px;
+}
+
+.card {
+    background: yellow;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card h3 {
+    margin-left: 8px;
+}
+
+#app-bottom {
+    margin-bottom: 200px;
+}
